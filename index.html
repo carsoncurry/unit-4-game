@@ -1,1 +1,60 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <title>Crystal Clicker</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron bg-light">
+                <h1>Stone Collector Game!</h1>
+                <hr class="my-4 warning">
+                <h5 class="lead">
+                    You will be given a random number at the start of the game. 
+                    There are four stones below. 
+                    By clicking on a crystal you will add a specific amount of points to your total score. 
+                    You win the game by matching your total score to the random number. 
+                    You lose the game if your total score goes above the random number. 
+                    The value of each stone is hidden from you until you click on it. 
+                    Each time the game starts, the game will change the values of each crystal. 
+                </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card bg-light">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <strong>Wins: </strong> <span id="win-counter">0</span>
+                        </div>
+                        <div class="col-md-6">
+                            <strong>Losses: </strong> <span id="loss-counter">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="stones">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
