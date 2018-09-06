@@ -2,3 +2,11 @@
     height: 200px;
     width: 125.209;
 }
+
+body {
+    background-color: indigo;
+}
+
+.card {
+    background-color: goldenrod;
+}
