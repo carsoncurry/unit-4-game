@@ -1,6 +1,6 @@
 .stone-image {
-    height: 200px;
-    width: 125.209;
+    height: 287.52px;
+    width: 180px;
 }
 
 body {
@@ -9,4 +9,9 @@ body {
 
 .card {
     background-color: goldenrod;
+    margin-bottom: 25px;
+}
+
+.jumbotron {
+    margin-top: 25px;
 }

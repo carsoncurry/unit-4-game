@@ -47,7 +47,7 @@ $(".stone-image").on("click", function() {
     $("#current-score").text(counter);
 
     if (counter === targetNumber) {
-        alert("You win!");
+        alert("You collected the Stones. Thanos has been defeated!");
 
         wins++;
 
@@ -58,8 +58,7 @@ $(".stone-image").on("click", function() {
     } 
     
     else if (counter >= targetNumber) {
-        
-        alert("You lose!");
+        alert("You failed to collect the Stones. Thanos has succeeded! *SNAP*");
 
         losses++;
 
